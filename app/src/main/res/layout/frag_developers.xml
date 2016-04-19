@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_o"
+    tools:context="com.parikshit.ojass16.Activity2">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/mayank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/prof_mayank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/mayank">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/name_mayank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="5dp"
+                    android:layout_toRightOf="@+id/prof_mayank"
+                    android:paddingTop="10dp"
+                    android:text="Mayank Agarwal"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/collg_mayank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/name_mayank"
+                    android:layout_margin="5dp"
+                    android:layout_toRightOf="@+id/prof_mayank"
+                    android:text="Computer Science and Engineering \n NIT JAMSHEDPUR"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/mayank"
+                android:background="#ccc" />
+
+            <RelativeLayout
+                android:id="@+id/rishav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mayank">
+
+                <ImageView
+                    android:id="@+id/prof_rishav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rishav">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/name_rishav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="5dp"
+                    android:layout_toRightOf="@+id/prof_rishav"
+                    android:paddingTop="10dp"
+                    android:text="Rishav Sagar"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/collg_rishav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/name_rishav"
+                    android:layout_margin="5dp"
+                    android:layout_toRightOf="@+id/prof_rishav"
+                    android:text="Computer Science and Engineering \n NIT JAMSHEDPUR"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rishav"
+                android:background="#ccc" />
+
+            <RelativeLayout
+                android:id="@+id/parikshit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rishav">
+
+
+                <ImageView
+                    android:id="@+id/prof_parikshit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/parikshit">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/name_parikshit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="5dp"
+                    android:layout_toRightOf="@+id/prof_parikshit"
+                    android:paddingTop="10dp"
+                    android:text="Parikshit Chadha"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/collg_parikshit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/name_parikshit"
+                    android:layout_margin="5dp"
+                    android:layout_toRightOf="@+id/prof_parikshit"
+                    android:text="Computer Science and Engineering \n NIT JAMSHEDPUR"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

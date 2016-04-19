@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37475E"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        android:src="@drawable/background_1" />
+
+    <ImageButton
+        android:id="@+id/logo_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ojass_logo"></ImageButton>
+
+    <TextView
+        android:id="@+id/festName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="OJASS '16"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/festDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="11-13 MARCH 2016 "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tagLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/festName"
+        android:layout_centerHorizontal="true"
+        android:text="DREAM"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tagLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tagLine1"
+        android:layout_centerHorizontal="true"
+        android:text="DARE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tagLine3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tagLine2"
+        android:layout_centerHorizontal="true"
+        android:text="ACHIEVE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

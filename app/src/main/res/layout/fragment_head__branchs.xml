@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#707070"
+    tools:context="com.parikshit.ojass16.Head_Branchs">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/head_list" />
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:autoLink="phone"
+        android:gravity="center_vertical|right"
+        android:text="Student Name"
+        android:textColor="#fff"
+        android:textColorLink="#fff"
+        android:textSize="20dip"
+        android:textStyle="italic" />
+
+</FrameLayout>

@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.parikshit.ojass16.Guest_Lecture">
+
+    <TextView
+        android:id="@+id/guest_n"
+        android:textSize="25dp"
+        android:background="#40ffffff"
+        android:gravity="center_horizontal"
+        android:textColor="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="7dp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/page_guest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:background="#40ffffff"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/im1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ojass16_logo_chota"
+            android:paddingRight="10dp" />
+
+        <ImageView
+            android:id="@+id/im2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ojass16_logo_chota"
+            android:paddingRight="10dp" />
+        <ImageView
+            android:id="@+id/im3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ojass16_logo_chota"
+            android:paddingRight="10dp" />
+    </LinearLayout>
+
+</RelativeLayout>

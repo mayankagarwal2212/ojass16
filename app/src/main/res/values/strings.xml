@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Ojass \'16</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_2">Ojass\'16</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">ScIQMetry</string>
+    <string name="title_section3">Arthashashtra</string>
+    <string name="title_section4">Circuit House</string>
+    <string name="title_section5">Kalp IT</string>
+    <string name="title_section6">No Ground Zone</string>
+    <string name="title_section7">Paraphernalia</string>
+    <string name="title_section8">Produs</string>
+    <string name="title_section9">Silicon Valley</string>
+    <string name="title_section10">Rise Of Machines</string>
+    <string name="title_section11">NSCET</string>
+    <string name="title_section12">Neo Drishti</string>
+    <string name="title_section13">Guru Gyan</string>
+    <string name="title_section14">Deus-X-Machina</string>
+    <string name="title_section15">Avartan</string>
+    <string name="title_section16">Armageddon</string>
+    <string name="title_section17">Aakriti</string>
+    <string name="title_section18">Itinerary</string>
+    <string name="title_section19">Sponsors</string>
+    <string name="title_section20">Core Team</string>
+    <string name="title_section21">Developers</string>
+    <string name="title_section22">Prayas</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_central_event">CentralEvent</string>
+    <string name="title_activity_branch_event">BranchEvent</string>
+    <string name="title_activity_page_2">Page_2</string>
+
+    <string name="APP_ID">1084377918262848</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

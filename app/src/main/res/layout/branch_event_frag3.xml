@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_o"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutAnimation="@anim/layout_bottom_to_top_slide"
+        android:layout_gravity="left|start" />
+    <ImageButton
+        android:id="@+id/ghar"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="end|bottom"
+        android:visibility="invisible"
+        android:layout_margin="20dp"
+        android:background="@drawable/ghar"/>
+    <ImageButton
+        android:id="@+id/ref"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="start|bottom"
+        android:layout_margin="20dp"
+        android:background="@drawable/refresh"/>
+
+</FrameLayout>

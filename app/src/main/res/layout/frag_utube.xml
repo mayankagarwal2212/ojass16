@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/back_o"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/youtubeplayerfragment"
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoLink="web"
+        android:text="teaser_ojass"
+        android:textStyle="bold"
+        android:textColor="#D32F2F"
+        android:textSize="15sp"
+        android:layout_margin="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/btnviewfullscreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View in Full Screen"
+                android:textColor="#fff"/>
+            <Button
+                android:id="@+id/more_videos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="more videos"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#fff"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

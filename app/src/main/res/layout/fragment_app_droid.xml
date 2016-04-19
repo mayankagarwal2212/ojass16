@@ -1,0 +1,126 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_o"
+    tools:context="com.parikshit.ojass16.Activity2">
+
+    <TabHost
+        android:id="@+id/tabhost_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- As the main content view, the view below consumes the entire
+                     space available using match_parent in both dimensions. -->
+                <FrameLayout
+                    android:id="@+id/container2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/text"
+                            style="@style/ParagraphText"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="• Depending upon the performance in Prelims, teams will be selected for Mains.\n
+•  Each team can have maximum of three members./n
+•  The decision of the judges and the organizing team will be final and binding.\n
+•  The marks would be given on the basis of innovation, user friendliness of UI, uniqueness.\n
+•  All softwares are provided to the contestant during the event.\n
+•  A team will be disqualified if it uses wrong means.\n\n
+Coordinators:\n
+Tarun Choubey\n
+Ph: +91-8986645013\n
+Swayam Raina\n
+Ph: +91-9431786203\n
+Shashi Kumari\n
+Ph: +91-9084301052\n
+
+" />
+                    </ScrollView>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/container_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/ParagraphText"
+                            android:text="• Participants can form team with at most three members per team.\n
+•   The event will be held in two rounds. Only the best six teams from the preliminary round will move to the final round.\n
+•   The first round would consist of MCQ related to UI design and core java.\n
+•   The final round will consist of onsite development of an android app based on the Problem Statement given.\n
+
+" />
+                    </ScrollView>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/container_2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/ParagraphText"
+                            android:text="• Depending upon the performance in Prelims, teams will be selected for Mains.\n
+•   Each team can have maximum of three members.\n
+•   The decision of the judges and the organizing team will be final and binding\n
+•   The marks would be given on the basis of innovation, user friendliness of UI, uniqueness.\n
+•   All softwares are provided to the contestant during the event.\n
+•   A team will be disqualified if it uses wrong means.
+\n\n" />
+                    </ScrollView>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/container_2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/ParagraphText"
+                        android:text="
+•   First Prize - Rs 5000\n
+•   Second Prize - Rs  3500\n
+•   Third Prize - Rs  2000\n
+Total prize worth Rs 10500\n
+" />
+
+                </FrameLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</android.support.v4.widget.DrawerLayout>
+

@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="Fragment">
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="Image">
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="DetailsImage" parent="Image">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="ParagraphText">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">22dip</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+
+    </style>
+
+        <style name="CustomTabWidget" parent="@android:style/Widget.TabWidget">
+            <item name="android:textAppearance">@style/CustomTabWidgetText</item>
+        </style>
+
+        <style name="CustomTabWidgetText" parent="@android:style/TextAppearance.Widget.TabWidget">
+            <item name="android:textStyle">bold</item>
+        </style>
+
+
+</resources>

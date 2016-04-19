@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_o">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvcont"
+                style="@style/ParagraphText"
+                android:gravity="center_horizontal"
+                android:paddingTop="40dp"
+                android:text="\n\nOjass, in its 7th installment, promises to live up to its name, implying invigorating, boundless energy. The annual Techno-Management fest of NIT Jamshedpur is one of East India’s biggest and grandest college festivals. Year after year, it has been evolving, reinventing itself in leaps and bounds. Every year, Ojass throws participants newer and unprecedented challenges, sets new standards, leaving the participants awe-struck. It is no wonder that Ojass has gained the kind of recognition it has, in such a short time span.\n\nWe are grateful to the engineering fraternity for their support and goodwill. Ojass ’15 scaled heights unheard of, the net worth of prizes summing up to a whopping ₹ 1.5 million. At the crux of such a herculean effort are the people involved, both you, the guests, and us,  a motivated team, who work diligently to ensure that you have a good time at NIT Jamshedpur campus. We’re confident that you’ll be taking along some innovative and path-breaking ideas, when you step out of our gates.\n\nIt is not just how good we are that determines our success, it is also the number of opportunities that come our way. Ojass, strives to be that golden opportunity, where ‘Engineers-in-making’ of India get to unleash their true potentials, in intellectually stimulating and fun events. It is the perfect platform for students to showcase their technical prowess in a plethora of pure and cross-disciplinary engineering events.\n\nThe spirit of Ojass lies in encouraging sound engineering practices, making precision engineering a way of life, effectively bringing about a paradigm shift from the classroom to path-breaking innovation.\n\nOjass also walks you down avenues where you get to explore your business acumen and skills. If all you’ve ever wanted is to become an entrepreneur, Ojass has the right events for you. Witness a plethora of B-plans unravel before you, and take cues for your entrepreneurial future. Make your mark with your own presentations before an expert panel composed of industry experts. Draft case studies, compete with the best in Biz quizzes.\n\nOjass invites you to an exhilarating experience of a lifetime, that’ll leave you yearning for more. We, at NIT Jamshedpur, are continually striving to make your Ojass experience memorable and enriching.Ojass is where you get to enthral fellow students with your creations, and in turn get enthralled with theirs’.\n\nNIT Jamshedpur brings together some of the best minds of the nation, for you to compete with, to act as a yardstick, enabling you to judge yourselves vis-à-vis contemporaries. Come down to Jamshedpur this March, afford us the pleasure of hosting you at NIT, prove your mettle and walk away, beaming with a bounty of prizes and pride.\n\n" />
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <TableRow android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/logo" />
+
+                    <TextView
+                        android:id="@+id/heading"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:text="OJASS"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#fff"
+                        android:textSize="30dp"
+                        android:textStyle="italic" />
+
+                </TableRow>
+            </TableLayout>
+        </FrameLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/fb"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="20dp"
+        android:background="@drawable/notify" />
+
+</FrameLayout>
+
+
